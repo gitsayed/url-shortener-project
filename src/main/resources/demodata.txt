@@ -1,0 +1,21 @@
+shorturl = localhost:8080/shorturlserver/; method=get , for receive data by s url;
+get record = localhost:8080/getrecordbyid/{id} method=get get record by id;
+longurl =localhost:8080/postlongurl   method=POST; required= JSON;
+
+redirect url = "/redirectlongurl/byshorturl/{srl}"; method=get, var=shorturl;
+
+
+
+
+
+
+
+
+
+ {
+"longurl":"https://www.baeldung.com/jackson-object-mapper-tutorial",
+"parameters":
+[ 
+    "a",  "b"
+    ]
+}
